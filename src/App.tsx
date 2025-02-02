@@ -3,16 +3,16 @@ import { Router } from "./Router";
 import { BrowserRouter } from "react-router-dom"
 
 
-import { defaultTheme } from "./components/styles/themes/default";
-import { GlobalStyle } from "./components/styles/global";
+import { defaultTheme } from "./styles/themes/default";
+import { GlobalStyle } from "./styles/global";
 
 export function App() {
 
   return (
     <ThemeProvider theme={defaultTheme}>
-      <BrowserRouter />
+      <BrowserRouter>
         <Router />
-      <BrowserRouter />
+      </BrowserRouter>
       <GlobalStyle />
   </ThemeProvider>
   )
