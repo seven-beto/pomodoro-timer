@@ -22,7 +22,6 @@ export const HistoryList = styled.main`
         width: 100%;
         border-collapse: collapse;
         min-width: 900px;
-        text-align: center;
 
         th{
             background-color: ${props => props.theme['gray-600']};
