@@ -54,7 +54,7 @@ export const HistoryList = styled.main`
                 width: 50%;
                 padding-left: 1.5rem;
             }
-
+            
             &:last-child {
                 padding-right: 1.5rem;
             }
